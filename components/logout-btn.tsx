@@ -1,5 +1,5 @@
 'use client'
-import { useAuthStore } from '@/store/authStore'
+import { useAuthStore } from '../store/auth-store'
 import { useRouter } from 'next/navigation'
 
 export default function LogoutButton() {
