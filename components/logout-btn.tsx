@@ -6,8 +6,9 @@ export default function LogoutButton() {
   const { logout } = useAuthStore()
   const router = useRouter()
 
-  const handleLogout = async () => {
-    await logout()
+  const handleLogout = () => {
+    logout()
+    useAuthStore.getState().setAuthenticated(false) 
     router.push('/login')
   }
 

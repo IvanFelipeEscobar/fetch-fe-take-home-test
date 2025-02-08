@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Fetch - Front end take home test',
+  title: 'Fetch - Frontend Take Home Test',
 }
 
 export default function RootLayout({

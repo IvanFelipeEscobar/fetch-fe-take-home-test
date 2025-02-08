@@ -12,5 +12,5 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/search', '/favorites', '/match'], // Protect these routes
+  matcher: ['/search', '/favorites', '/match', '/'], 
 }
